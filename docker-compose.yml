@@ -1,0 +1,6 @@
+version: '3'
+services:
+  devdocs:
+    image: devdocs/devdocs:alpine
+    ports:
+      - "9292:9292"
